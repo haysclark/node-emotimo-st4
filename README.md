@@ -15,7 +15,7 @@ A simple eMotimo ST4 API wrapper.
 
 ## Installation
 
-   npm install emotimo-sp4
+   npm install emotimo-st4
 
 ## Tests
 
