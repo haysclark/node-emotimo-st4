@@ -7,8 +7,8 @@
   "main": "index.js",
   "scripts": {
     "start": "npm index.js",
-    "lint": "eslint --ext .js spec/** api/** index.js",
-    "format": "eslint --ext .js --fix spec/** api/** index.js",
+    "lint": "eslint --ext .js spec/** api/** index.js Gruntfile.js",
+    "format": "eslint --ext .js --fix spec/** api/** index.js Gruntfile.js",
     "test": "mocha spec -u tdd -R spec --recursive",
     "coverage": "istanbul cover -x '**/spec/**' ./node_modules/mocha/bin/_mocha -- --recursive --require spec/helpers/chai.js spec",
     "report": "open ./coverage/lcov-report/index.html",
