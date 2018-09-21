@@ -1,0 +1,5 @@
+all:
+  - spec/**/*.js
+spec:
+  options:
+	reporter: 'spec'
