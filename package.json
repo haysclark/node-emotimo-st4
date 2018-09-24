@@ -19,6 +19,7 @@
     "url": "git+https://github.com/haysclark/node-emotimo-st4.git"
   },
   "dependencies": {
+    "serialport": "^4.0.7"
   },
   "devDependencies": {
     "chai": "^3.3.0",
@@ -36,7 +37,7 @@
     "mocha": "^2.3.4",
     "mocha-lcov-reporter": "^1.0.0",
     "mock-stdin": "^0.3.0",
-    "sinon": "^1.17.0",
+    "sinon": "^1.17.7",
     "standard-version": "^4.3.0"
   },
   "keywords": [
