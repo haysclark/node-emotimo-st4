@@ -5,11 +5,10 @@ checks:
     enabled: false
 
 plugins:
-  eslint:
+  editorconfig:
     enabled: true
-    channel: "eslint-2"
     config:
-      config: .eslintrc.js
+      editorconfig: .editorconfig
   stylelint:
     enabled: true
   duplication:
@@ -19,5 +18,9 @@ plugins:
         javascript:
           mass_threshold: 70
 
+## other configuration excluded from example...
 exclude_patterns:
-- static/**/*
+- "static/"
+- "grunt/"
+- "spec/"
+- "**/vendor/"
